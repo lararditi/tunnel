@@ -13,6 +13,17 @@ body{
     white-space: nowrap;
 }
 
+.text{
+  animation:spin 15s linear infinite;
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
 
 
 .ring-1{
